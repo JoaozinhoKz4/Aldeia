@@ -36,7 +36,7 @@
 
 				<form class="login100-form validate-form" method="POST" action="../sistema/login/valida_dados.php">
 					<span class="login100-form-logo">
-						<img src="../../assets/img/60x80_orange1" alt="logo-aldeia-imob" width="100px">
+						<img src="images/60x80_orange1.png" alt="logo-aldeia-imob" width="100px">
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
