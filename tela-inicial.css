@@ -1,0 +1,11 @@
+@media (max-width: 1309px){
+    #logocelular{
+        display: block;
+    }
+    #logopc{
+        display: none;
+    }
+    #botao-maldito{
+        display: block;
+    }
+}
