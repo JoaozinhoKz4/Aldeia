@@ -223,7 +223,7 @@ if (isset($_GET['pesquisa'])) {
                                 </h1>
                                 <ul class="list-inline lead">
                                     <?php
-                                    echo '<li class="list-inline-item"><span class="text-muted">Área total:</span> <strong>' . " " . $area_total . 'm<sup>2</sup></strong></li>';
+                                    echo '<li class="list-inline-item"><span class="text-muted">Área útil:</span> <strong>' . " " . $area_total . 'm<sup>2</sup></strong></li>';
                                     if ($dormitorio != "")
                                         echo '<li class="list-inline-item"><span class="text-muted">Número de quartos:</span> <strong>' . " " . $dormitorio . '</strong></li>';
                                     ?>
@@ -265,9 +265,7 @@ if (isset($_GET['pesquisa'])) {
                                     <dt class="col-sm-6">Tipo:</dt>
                                     <dd class="col-sm-6">' . $tipo . '</dd>
                                     <dt class="col-sm-6">Finalidade:</dt>
-                                    <dd class="col-sm-6">' . $finalidade . '</dd>
-                                    <dt class="col-sm-6">Area total:</dt>
-                                    <dd class="col-sm-6">' . $area_total . 'm<sup>2</sup></dd>';
+                                    <dd class="col-sm-6">' . $finalidade . '</dd>';
                                             if ($area_terreno != "") {
                                                 echo '<dt class="col-sm-6">Area terreno:</dt>
                                     <dd class="col-sm-6">' . $area_terreno . 'm<sup>2</sup></dd>';
@@ -441,7 +439,7 @@ if (isset($_GET['pesquisa'])) {
                                     <div class="object-content">
                                         <h5 class="object-title"><?php echo $titulo; ?></h5>
                                         <ul class="object-details list-unstyled">
-                                            <li><span class="text-muted">Área total:</span> <?php echo $area_total; ?>m<sup>2</sup></li>
+                                            <li><span class="text-muted">Área útil:</span> <?php echo $area_util; ?>m<sup>2</sup></li>
                                             <?php if ($dormitorio != "")
                                                 echo    '<li><span class="text-muted">Quartos:</span>' . " " . $dormitorio . '</li>'; ?>
                                         </ul>

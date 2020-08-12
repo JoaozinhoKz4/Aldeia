@@ -385,14 +385,10 @@
                                 $xml = simplexml_load_file($link)->Imoveis;
                                 $contador = 0;
                                 foreach ($xml->Imovel as $item) {
-                                    if ($item->Titulo == "") {
-                                        $titulo = $item->Bairro;
-                                    } else {
-                                        $titulo = $item->Titulo;
-                                    }
-
+                                    $titulo = $item->Titulo;
+                                    $endereco = $item->Endereco;
                                     $tipo = $item->Tipo;
-                                    $area = $item->Areatotalsemdeciamal;
+                                    $area = $item->Areautilsemdeciamal;
                                     $quartos = $item->Dormitorios;
                                     $foto = $item->Fotos->Foto->URL;
                                     $modalidade;
@@ -572,11 +568,11 @@
                                     echo            '<img src="' . $foto . '" alt="">
                                     </div>';
                                     echo            '<div class="object-content">
-                                        <h5 class="object-title">' . $titulo . '</h5>
+                                        <h5 class="object-title">' . $endereco . '</h5>
                                         <ul class="object-details list-unstyled">';
                                     echo        '<li><span class="text-muted">Tipo:</span>' . " " . $tipo . '</li>';
                                     echo        '<li><span class="text-muted">Categoria:</span>' . " " . $categoria_item . " " . '</li>';
-                                    echo        '<li><span class="text-muted">Area total:</span>' . " " . $area . " " . 'm<sup>2</sup></li>';
+                                    echo        '<li><span class="text-muted">Área útil:</span>' . " " . $area . " " . 'm<sup>2</sup></li>';
                                     if ($quartos != "")
                                         echo        '<li><span class="text-muted">Quartos:</span>' . " " . $quartos . '</li>';
                                     echo    '        </ul>
@@ -607,14 +603,11 @@
                                 $contador = 0;
                                 foreach ($xml->Imovel as $item) {
 
-                                    if ($item->Titulo == "") {
-                                        $titulo = $item->Bairro;
-                                    } else {
-                                        $titulo = $item->Titulo;
-                                    }
+                                    $titulo = $item->Titulo;
+                                    $endereco = $item->Endereco;
 
                                     $tipo = $item->Tipo;
-                                    $area = $item->Areatotalsemdeciamal;
+                                    $area = $item->Areautilsemdeciamal;
                                     $quartos = $item->Dormitorios;
                                     $foto = $item->Fotos->Foto->URL;
 
@@ -793,11 +786,11 @@
                                     echo            '<img src="' . $foto . '" alt="">
                                     </div>';
                                     echo            '<div class="object-content">
-                                        <h5 class="object-title">' . $titulo . '</h5>
+                                        <h5 class="object-title">' . $endereco . '</h5>
                                         <ul class="object-details list-unstyled">';
                                     echo        '<li><span class="text-muted">Tipo:</span>' . " " . $tipo . '</li>';
                                     echo        '<li><span class="text-muted">Categoria:</span>' . " " . $categoria_item . " " . '</li>';
-                                    echo        '<li><span class="text-muted">Area total:</span>' . " " . $area . " " . 'm<sup>2</sup></li>';
+                                    echo        '<li><span class="text-muted">Área útil:</span>' . " " . $area . " " . 'm<sup>2</sup></li>';
                                     if ($quartos != "")
                                         echo        '<li><span class="text-muted">Quartos:</span>' . " " . $quartos . '</li>';
                                     echo    '        </ul>
