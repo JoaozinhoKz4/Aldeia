@@ -310,7 +310,7 @@ if (isset($_GET['pesquisa'])) {
                                             }
                                             echo    '<dt class="col-sm-6">Banheiros:</dt>
                                     <dd class="col-sm-6">' . $banheiro2 . '</dd>
-                                    <dt class="col-sm-6">Banheiro auxiliar:</dt>
+                                    <dt class="col-sm-6">Lavabo:</dt>
                                     <dd class="col-sm-6">' . $banheiro_auxiliar . '</dd>
                                     <dt class="col-sm-6">Banheiro empregada:</dt>
                                     <dd class="col-sm-6">' . $banheiro_empregada . '</dd>';
