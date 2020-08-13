@@ -15,7 +15,7 @@ $extensao = strtolower ( $extensao );
 if ( strstr ( '.docx;.txt;.pdf;.xlsm;.csv;.jpg;.jpeg;.gif;.png', $extensao ) ) {
     $novoNome = $nome.'-'.uniqid ( time () ) . '.' . $extensao;
     $destino = "area-do-usuario/administracao/arquivos/".$novoNome;
-    move_uploaded_file( $arquivo_tmp, $_SERVER['DOCUMENT_ROOT']."/public_html"."/".$destino);
+    move_uploaded_file( $arquivo_tmp, $_SERVER['DOCUMENT_ROOT'] . "/" . $destino);
 }
 
 $sql = "INSERT INTO `docs`(`id_doc`, `titulo`, `nome`, `descricao`, `envio`, `code`) VALUES (NULL,'$nome','$destino','$descricao','$envio',$code)";

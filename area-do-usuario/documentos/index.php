@@ -60,6 +60,7 @@
                     <tbody>
                     <?php
                             var_dump($_SERVER['DOCUMENT_ROOT']);
+                            var_dump($destino);
                             $sql = "SELECT * FROM `docs` WHERE `code` = $id_user";
                             $resultado = mysqli_query($conn, $sql);
                             if($resultado){
