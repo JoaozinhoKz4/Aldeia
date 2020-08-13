@@ -60,12 +60,12 @@
                     <tbody>
                     <?php
                             var_dump($_SERVER['DOCUMENT_ROOT']);
-                            var_dump($destino);
+                            
                             $sql = "SELECT * FROM `docs` WHERE `code` = $id_user";
                             $resultado = mysqli_query($conn, $sql);
                             if($resultado){
                                 while($registros = mysqli_fetch_array($resultado, MYSQLI_ASSOC)){
-
+                                var_dump($registros);
                                 $titulo = $registros['titulo'];
                                 $destino = $registros['nome'];
                                 $descricao = $registros['descricao'];
@@ -74,7 +74,7 @@
                                 echo '<tr class="table-light">';
                                 echo '<td><h6>'.$titulo.'</h6></td>';
                                 echo '<td>'.$descricao.'</td>';
-                                echo '<td><a href="../../'.$destino.'" class="btn" style="height: 10px"><i class="fa fa-file-o fa-2x"></i></a></td>';
+                                echo '<td><a href="../../'.$destino.'" class="btn" style="height: 10px" download><i class="fa fa-file-o fa-2x"></i></a></td>';
                                 echo '<td>'.$registro.'</td>';
                                 echo '</tr>';
                                 }
