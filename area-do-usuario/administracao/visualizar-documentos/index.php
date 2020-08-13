@@ -61,7 +61,7 @@
                             continue;
                           }
 
-                        echo '<a href="'.$path.$arquivo.'" class="list-group-item list-group-item-action list-group-item-light">'.$arquivo.'</a><br/>';
+                        echo '<a href="'.$path.$arquivo.'" class="list-group-item list-group-item-action list-group-item-light" download>'.$arquivo.'</a><br/>';
                         
                       }
                         $diretorio -> close();
