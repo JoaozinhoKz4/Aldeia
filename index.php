@@ -7,9 +7,17 @@
 
     <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name=”description” content="Aldeia Imobiliária e Construtora, há mais de quarenta anos estabelecida no mercado brasiliense. A melhor opção para vender, comprar ou alugar o seu imóvel. " />
+    <meta name="keywords" content="aldeia imobiliaria e construtora, imobiliaria, casa, apartamento, compra, venda, aluguel, brasilia, distrito federal, asa norte, asa sul, plano piloto, lago norte, lago sul, noroeste, sudoeste, aguas claras, guara, compra de imoveis, venda de imoveis, imobiliaria confiavel" />
+    <meta name="robots" content="follow" />
+    <html class="html" lang="pt-BR" itemscope itemtype="http://schema.org/WebPage">
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://inova7.com.br/" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="icon" type="image/png" href="assets/img/Logo_aldeia_link-removebg-preview.png"/>
+    <meta property="og:type" content="website" />
     <!-- Title -->
-    <title>Aldeia Imobiliária</title>
+    <title>Aldeia Imobiliária e Construtora | Compra, venda e aluguel de imóveis em Brasília</title>
 
     <!-- Favicons -->
 
@@ -22,7 +30,7 @@
     <link rel="stylesheet" href="assets/plugins/photoswipe/dist/photoswipe.css" />
     <link rel="stylesheet" href="assets/plugins/photoswipe/dist/default-skin/default-skin.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet" href="/tela-inicial.css"/>
+    <link rel="stylesheet" href="/tela-inicial.css" />
     <!-- CSS Icons -->
     <link rel="stylesheet" href="assets/css/themify-icons.css" />
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
@@ -55,12 +63,12 @@
         <!-- Header -->
         <header id="header" class="header-horizontal dark">
             <button class="navbar-toggler" id="botao-maldito" type="button" data-toggle="collapse" data-target="#navigation-main" style="background-color: white; display:none;">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-        <img src="assets/img/logo-final3.png" alt="" id="logocelular" style="display: none;">
+            <img src="assets/img/logo-final3.png" alt="" id="logocelular" style="display: none;">
             <!-- Module - Navigation -->
             <nav id="navigation-main" class="module module-nav row navbar-expand-lg">
-            <img src="assets/img/60x80_orange1.png" alt="" id="logopc">
+                <img src="assets/img/60x80_orange1.png" alt="" id="logopc">
                 <ul class="nav nav-main-horizontal pr-4 ml-auto">
                     <li><a href="#home">Início</a></li>
                     <li><a href="#flats">Comprar</a></li>
@@ -406,7 +414,7 @@
                                     } elseif ($item->Valortemporada != "" && $item->Valortemporada != 0.00) {
                                         $valor = $item->Valortemporada;
                                     }
-                                    
+
                                     //// Definição das variáveis a serem enviadas para a página de cada anúncio
                                     $fotos = array();
                                     foreach ($item->Fotos->Foto as $x) {
@@ -591,7 +599,7 @@
                                         }
                                     }
                                 }
-                              ?>
+                                ?>
                             </div>
                         </div>
 
@@ -852,12 +860,14 @@
                             </ul>
                             <div class="tab-content" data-local-scroll>
                                 <div id="tab_about" class="tab-pane fade show active" role="tabpanel">
-                                    <p class="lead">Texto em construção</p>
+                                    <p class="lead">A Aldeia Imobiliária e Construtora é o lugar ideal para avaliar, vender, comprar e alugar imóveis. Com mais de quarenta anos de experiência no mercado imobiliário, oferecemos a melhor seleção de casas e apartamentos no Plano Piloto, Lagos Norte e Sul, Sudoeste, Águas Claras e Guará. Também somos a melhor opção em grandes áreas destinadas a empresas e embaixadas.
+                                        <br>
+                                        Priorizamos o atendimento personalizado, a segurança em toda a negociação e a solidez que só uma empresa com mais de quarenta anos pode ofertar. Além disso, por nossa experiência, conhecemos a fundo todos os detalhes de legislação, contratos e negociações: tudo para atendê-lo da melhor forma possível! </p>
                                     <p class="mb-5"></p>
                                     <a href="#contact" class="btn btn-primary mb-4">Fale conosco!</a>
                                 </div>
                                 <div id="tab_history" class="tab-pane" role="tabpanel">
-                                    <p class="lead">Texto em construção</p>
+                                    <p class="lead">A Aldeia Imobiliária e Construtora foi fundada em Brasília no ano de 1977 e desde en-tão segue como uma imobiliária consolidada no mercado. Nosso fundador veio para Brasília antes mesmo da inauguração da cidade e a sua filha, ao lado do marido, é uma dos atuais proprietários. Dessa forma, a Aldeia é a única imobiliária capaz de unir a experiência de décadas com o cuidado de um negócio familiar.</p>
                                     <p class="mb-5"></p>
                                     <a href="#contact" class="btn btn-primary mb-4">Fale conosco!</a>
                                 </div>
@@ -873,18 +883,15 @@
 
                 <footer class="page-footer fila">
                     <div class="content col-md-4 p-4">
-                        <h2 class="mb-0">Faça uma visita ou<br> entre em contato!</h2>
+                        <h2 class="mb-0"><strong>Faça uma visita ou<br> entre em contato!</strong></h2>
                         <hr class="hr-primary">
                         <address>
-                            SEPN 504,<br>
-                            Bloco C,<br>
-                            Loja 37,<br>
-                            Edifício Marianna</br>
+                            SEPN 504, Bloco C, Loja 37, Edifício Marianna</br>
                         </address>
                         <p class="lead">
                             E-mail: aldeia@imobiliariaaldeia.com.br<br>
                             Telefone: (61) 3034-6677 </br>
-                            Celular: (61) 99944-1932
+                            Celular/Whatsapp: (61) 99944-1932
                         </p>
                         <a href="#" class="icon icon-circle icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="icon icon-circle icon-sm icon-youtube"><i class="fa fa-youtube"></i></a>
@@ -956,7 +963,7 @@
                 w: 1920,
                 h: 1080
             },
-            
+
         ];
 
         var galleryCarouselItems = [{
