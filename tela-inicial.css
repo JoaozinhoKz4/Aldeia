@@ -1,11 +1,23 @@
-@media (max-width: 1309px){
+@media screen and (max-width: 1309px){
     #logocelular{
         display: block;
     }
     #logopc{
         display: none;
     }
-    #botao-maldito{
+    #sanduiche{
         display: block;
+    }
+}
+
+@media screen and (min-width: 1310px) {
+    #logocelular{
+        display: none;
+    }
+    #logopc{
+        display: block;
+    }
+    #sanduiche{
+        display: none;
     }
 }

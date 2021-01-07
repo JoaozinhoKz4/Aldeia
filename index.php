@@ -62,13 +62,18 @@
 
         <!-- Header -->
         <header id="header" class="header-horizontal dark">
-            <button class="navbar-toggler" id="botao-maldito" type="button" data-toggle="collapse" data-target="#navigation-main" style="background-color: white; display:none;">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <img src="assets/img/logo-final3.png" alt="" id="logocelular" style="display: none;">
+                <div class="row">
+                <img src="assets/img/60x80_orange1.png" alt="" id="logocelular" >
+                <button class="navbar-toggler navbar-toggler-right mt-2" id="sanduiche" type="button" data-toggle="collapse" data-target="#navigation-main" >
+                    <span class="navbar-toggler-icon"><em class="fa fa-bars" style="color:#fff; font-size:28px;"></em></span>
+                </button>
+                </div>
             <!-- Module - Navigation -->
-            <nav id="navigation-main" class="module module-nav row navbar-expand-lg">
+            <nav id="navigation-main" class="module module-nav row navbar-expand-lg navbar-dark">
+                
+                
                 <img src="assets/img/60x80_orange1.png" alt="" id="logopc">
+            <div id="navBarN">
                 <ul class="nav nav-main-horizontal pr-4 ml-auto">
                     <li><a href="#home">Início</a></li>
                     <li><a href="#flats">Comprar</a></li>
@@ -82,7 +87,7 @@
                     <li><a href="#contact">Contato</a></li>
                     <li><a href="area-do-usuario/login/">Área do usuário</a></li>
                 </ul>
-
+            </div>
             </nav>
         </header>
         <!-- Header / End -->
