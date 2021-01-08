@@ -37,7 +37,31 @@
 
     <!-- CSS Theme -->
     <link id="theme" rel="stylesheet" href="assets/css/themes/theme-blue.css" />
+    <style>
+    @media screen and (max-width: 1309px){
+    #logocelular{
+        display: block;
+    }
+    #logopc{
+        display: none;
+    }
+    #sanduiche{
+        display: block;
+    }
+}
 
+@media screen and (min-width: 1310px) {
+    #logocelular{
+        display: none;
+    }
+    #logopc{
+        display: block;
+    }
+    #sanduiche{
+        display: none;
+    }
+}
+    </style>
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
